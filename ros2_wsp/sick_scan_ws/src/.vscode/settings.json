@@ -1,0 +1,18 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/yogachand/sick_scan_ws/install/sick_scan_xd/local/lib/python3.10/dist-packages",
+        "/home/yogachand/Downloads/sick_scan_xd-develop/python/api",
+        "/home/yogachand/ros2_ws/build/my_robot_controller",
+        "/home/yogachand/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/yogachand/sick_scan_ws/install/sick_scan_xd/local/lib/python3.10/dist-packages",
+        "/home/yogachand/Downloads/sick_scan_xd-develop/python/api",
+        "/home/yogachand/ros2_ws/build/my_robot_controller",
+        "/home/yogachand/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

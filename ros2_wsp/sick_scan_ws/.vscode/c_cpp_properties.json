@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/yogachand/bumperbot_ws/install/bumperbot_cpp_examples/include/**",
+        "/home/yogachand/bumperbot_ws/install/bumperbot_msgs/include/**",
+        "/home/yogachand/bumperbot_ws/install/bumperbot_localization/include/**",
+        "/home/yogachand/bumperbot_ws/install/bumperbot_firmware/include/**",
+        "/home/yogachand/bumperbot_ws/install/bumperbot_controller/include/**",
+        "/home/yogachand/sick_scan_ws/install/sick_scan_xd/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/yogachand/sick_scan_ws/src/sick_scan_xd/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

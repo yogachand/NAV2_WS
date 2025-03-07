@@ -1,0 +1,30 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/yogachand/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages",
+        "/home/yogachand/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages",
+        "/home/yogachand/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages",
+        "/home/yogachand/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages",
+        "/home/yogachand/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages",
+        "/home/yogachand/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages",
+        "/home/yogachand/Downloads/sick_scan_xd-develop/python/api",
+        "/home/yogachand/sick_scan_ws/install/sick_scan_xd/local/lib/python3.10/dist-packages",
+        "/home/yogachand/sick_scan_ws/build/lidar_transform_publisher",
+        "/home/yogachand/sick_scan_ws/install/lidar_transform_publisher/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/yogachand/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages",
+        "/home/yogachand/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages",
+        "/home/yogachand/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages",
+        "/home/yogachand/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages",
+        "/home/yogachand/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages",
+        "/home/yogachand/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages",
+        "/home/yogachand/Downloads/sick_scan_xd-develop/python/api",
+        "/home/yogachand/sick_scan_ws/install/sick_scan_xd/local/lib/python3.10/dist-packages",
+        "/home/yogachand/sick_scan_ws/build/lidar_transform_publisher",
+        "/home/yogachand/sick_scan_ws/install/lidar_transform_publisher/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

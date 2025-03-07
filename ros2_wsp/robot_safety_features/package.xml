@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>robot_safety_features</name>
+  <version>0.0.1</version>
+  <description>Package for robot localization, safety stop functionality, and twist relay integration.</description>
+  
+  <!-- Maintainer information -->
+  <maintainer email="yogachand@example.com">Yogachand</maintainer>
+
+  <!-- License -->
+  <license>Apache License 2.0</license>
+
+  <!-- Build tools -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_cmake_python</buildtool_depend>
+
+  <!-- Runtime dependencies -->
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend> <!-- Required for Bool message -->
+  <depend>geometry_msgs</depend> <!-- Required for Twist and TwistStamped messages -->
+  <depend>visualization_msgs</depend> <!-- Required for MarkerArray -->
+  <depend>tf2_ros</depend> <!-- Required for broadcasting transforms -->
+  <depend>tf_transformations</depend> <!-- Required for quaternion transformations -->
+  <depend>rclcpp</depend>
+  <depend>rclcpp_action</depend>
+
+  <!-- Test dependencies -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <!-- Export build type -->
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
