@@ -1,3 +1,11 @@
+**🔹 Introduction**
+This repository contains a set of ROS 2 packages developed for a mobile rover platform. The goal is to provide a complete workflow for robot modeling, navigation, mapping, and safety features, both in simulation and real-world scenarios.
+The repository includes:
+A robot description package (URDF) for visualizing and simulating the rover in RViz and Gazebo.
+Navigation and SLAM tools for autonomous operation and environment mapping.
+A safety feature package that uses lidar data to define safe zones and enable emergency stop behavior.
+SICK lidar integration for obstacle detection and safety monitoring using the TIM781 scanner.
+Together, these packages form a foundation for building and testing autonomous robotic systems with an emphasis on simulation-to-hardware integration, safe navigation, and modular design.
 ## 1. my_robot_description 
 This folder contains the `my_robot_description` package, which provides the robot's Unified Robot Description Format (URDF) files. These files, written in XML, define the robot's structure, physical properties, and joint configurations. Additionally, a Python launch file is included for easily visualizing the robot in RViz and simulating it in Gazebo.
 **Key Features:**
